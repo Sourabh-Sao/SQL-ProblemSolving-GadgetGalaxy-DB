@@ -126,9 +126,7 @@ from cte
 ) select customer_id
 from cte3
 GROUP BY 1
-having SUM(flg)=0
-
-
+having SUM(flg)=0;
 
 
 --* 7.Show 3-month moving average of sales.
